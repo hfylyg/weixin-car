@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs",
+
+    "pages/particulars/particulars",
+    "pages/find-station/find-station",
+    "pages/binTel/binTel",
+    "pages/time/time",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1f85d7",
+    "navigationBarTitleText": "汽车票",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#2091ed",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/s-index.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "订单",
+        "iconPath": "img/order.png",
+        "selectedIconPath": "img/s-order.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/s-my.png"
+      }
+    ]
+  }
+}

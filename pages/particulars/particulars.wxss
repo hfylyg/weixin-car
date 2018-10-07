@@ -1,0 +1,188 @@
+/* pages/particulars/particulars.wxss */
+.message{
+  width:100%;
+  height:280rpx;
+  background: #fff;
+  border-bottom: 30rpx solid #ddd;
+  padding-top: 30rpx;
+}
+.message-top{
+  width: 680rpx;
+  height: 140rpx;
+  margin-left:35rpx;
+  border-bottom:1rpx dashed #ddd;
+}
+.start,.finish{
+  width: 200rpx;
+  height: 100%;
+  float: left;
+ 
+  font-size: 44rpx;
+  text-align: center;
+  line-height: 120rpx;
+}
+.depart{
+  width: 280rpx;
+  height: 100%;
+  float: left;
+
+}
+.depart-time{
+  width: 100%;
+  height: 40rpx;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.depart-img{
+  width: 100%;
+  height: 40rpx;
+  font-size: 32rpx;
+  color: #1f85d7;
+}
+.depart-date{
+  width:100%;
+  height: 40rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.message-bottom{
+  width: 100%;
+  height: 160rpx;
+  padding-top:40rpx;
+  box-sizing: border-box;
+}
+.price,.cancel{
+  width:50%;
+  height: 60rpx;
+  float: left;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-right: 2rpx solid #ddd;
+  box-sizing: border-box;
+}
+.cancel{
+  border: none;
+}
+.passenger{
+  width: 100%;
+  height: auto;
+  border-bottom: 30rpx solid #ddd;
+  padding: 20rpx 40rpx;
+  box-sizing: border-box;
+}
+.passenger-text{
+  width: 100%;
+  height:60rpx;
+  font-size: 32rpx;
+  line-height: 60rpx;
+  font-weight: 400;
+  border-bottom:1rpx solid #ddd;
+}
+.passenger-message{
+  width: 100%;
+  height:150rpx;
+  font-size: 32rpx;
+  line-height: 60rpx;
+  border-bottom:1rpx solid #ddd;
+}
+.del{
+  width: 150rpx;
+  height: 150rpx;
+  float: left;
+}
+.del image{
+  width: 100%;
+  height: 100%;
+}
+
+.passenger-set{
+  width: 520rpx;
+  height: 100%;
+  float: left;
+}
+.passenger-name,.passenger-tel{
+  width: 100%;
+  height: 50%;
+  border-bottom: 1rpx dashed #ddd;
+  box-sizing: border-box;
+  padding-left: 10rpx; 
+}
+.passenger-tel{
+ border: none;
+}
+.add-passenger{
+  width: 100%;
+  height: 70rpx;
+  margin-top: 40rpx;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+.add-icon{
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-left: 210rpx;
+}
+.add-text{
+  width: 200rpx;
+  height: 100%;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  text-align: center;
+  float: left;
+}
+.add-icon image{
+  width: 100%;
+  height: 100%;
+}
+.get-order{
+  width: 100%;
+  height: 200rpx;
+  padding: 0 40rpx;
+  box-sizing:  border-box;
+  /* border-bottom: 30rpx solid #ddd; */
+  font-size: 32rpx;
+  line-height: 100rpx;
+}
+.get-order-one,.get-order-tel{
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px dotted #ddd;
+}
+.get-order-one input,.get-order-tel input{
+  width: 550rpx;
+  height: 100%;
+  float:right;
+} 
+.payment{
+  width: 100%;
+  height:120rpx;
+  background: #f0f0f0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: -10rpx 0 20rpx rgba(0, 0, 0, 0.4)
+}
+.pay-price{
+  width: 65%;
+  height: 100%;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color:#fd9704;
+  float: left;
+}
+.pay{
+  width: 35%;
+  height: 100%;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-weight: 600;
+  color:#fff;
+  background: #fd9704;
+  float: right;
+}

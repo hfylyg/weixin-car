@@ -1,0 +1,27 @@
+<!--pages/list.wxml-->
+<view class='time-header'>
+<view class='last'>前一天</view>
+<view class='time-date'>{{month}}月{{date}}日 周{{week}}</view>
+<view class='next'>后一天</view>
+</view>
+
+<view class='lists'wx:for="{{array}}">
+<navigator class='list' url="../particulars/particulars">
+  <view class='depart-time'>{{time}}</view>
+  <view class='depart-site'>
+  <view class='depart-img'>
+  <image src="../../img/depart-img.png"></image>
+  </view>
+  <view class='depart-text'>
+  <view class='start'>{{start}}</view>
+  <view class='finish'>{{finish}}</view>
+  </view>
+  </view>
+  <view class='list-r'>
+      <view class='price'>{{price}}元</view>
+      <view class='residue'>剩余{{residue}}张</view>  
+  </view>
+
+</navigator>
+
+</view>

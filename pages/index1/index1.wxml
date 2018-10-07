@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<swiper class='banner' autoplay='true' circular='true' interval='2000'>
+<swiper-item class="b1">
+<image src='../../img/banner1.png'></image>
+</swiper-item>
+<swiper-item class="b2">
+<image src='../../img/banner2.png'></image>
+</swiper-item>
+<swiper-item class="b3">
+<image src='../../img/banner3.png'></image>
+</swiper-item>
+</swiper>
+
+<view class='hite'>为您预约一周内的所有座位</view>
+
+<view class='select'>
+<view class='select-l'>选择路线</view>
+<view class='select-c'>
+<image src='../../img/logo.png'></image>
+</view>
+<view class='select-r'>选择路线</view>
+</view>
+
+<view class='time'>
+<view class='select-time'>选择时间</view>
+<view class='t-icon'>
+<image src='../../img/t-icon.png'></image>
+</view>
+</view>
+
+<view class='seach'>搜索</view>

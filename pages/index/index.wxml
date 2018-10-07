@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<view id='block'>
+<view class='select'>
+<view bindtap='tiao' class='select-left' hover-class='none'>{{start}}</view>
+<view class='tran' bindtap='tran'>
+<image src='../../img/logo.png'></image>
+</view>
+<navigator class='select-right' hover-class='none'>{{finish}}</navigator>
+</view>
+<navigator class='time' url='../time/time' hover-class='none'>
+<view class='date'>{{month}}月{{date}}日</view>
+<view class='week'>周{{week}}</view>
+</navigator>
+<navigator class='seach' url='../list/list' hover-class='none'>搜索</navigator>
+</view>
+
+

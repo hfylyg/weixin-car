@@ -1,0 +1,104 @@
+.orderList{
+  width: 100%;
+  height: 79rpx;
+  border-bottom:1rpx solid #ddd;
+  display: flex;
+  justify-content: space-around;
+}
+.ac-order,.un-order{
+  width: 240rpx;
+  height: 100%;
+  box-sizing: border-box;
+  
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 78rpx;
+}
+.hot{
+  border-bottom: 4rpx solid #1f85d7;
+  color:#1f85d7;
+}
+#order-body{
+  padding: 40rpx 20rpx;
+}
+.order-msg{
+  width: 100%;
+  height: 530rpx;
+  margin-bottom: 40rpx;
+  border-radius: 20rpx;
+  background: #1f85d7;
+  box-shadow: 0 0 10rpx #1f85d7;
+}
+.order-pay{
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 1rpx dotted #ddd;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #fff;
+}
+.order-platform{
+  width: 100%;
+  height: 260rpx;
+}
+.platform-start,.platform-finish{
+ width: 200rpx;
+ height: 100%;
+ padding-top: 60rpx;
+ box-sizing: border-box;
+ font-size: 36rpx;
+ color: #fff;
+ text-align: center;
+ line-height: 66rpx;
+ float:left;
+}
+.order-time{
+  width: 310rpx;
+  height: 100%;
+  float:left;
+}
+.start-time,.order-day{
+  width: 100%;
+  height: 110rpx;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+}
+.depart-right{
+  width: 100%;
+  height: 60rpx;
+ font-size: 32rpx;
+ color:#fff;
+ text-align: center;
+ line-height: 60rpx;
+}
+.start-time{
+line-height: 180rpx;
+}
+
+.passenger-msg{
+  width: 100%;
+  height: 189rpx;
+  background: #fff;
+  border-radius: 0 0 20rpx 20rpx;
+}
+.passenger-box{
+ width: 500rpx;
+ height: 100%;
+ font-size: 32rpx;
+ color:#a5a5a5;
+ padding-left:90rpx; 
+ line-height: 60rpx;
+box-sizing: border-box;
+ float: left; 
+}
+.price{
+  width:200rpx;
+  height: 100%;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 168rpx;
+  color:#ff8400;
+  float:right; 
+}

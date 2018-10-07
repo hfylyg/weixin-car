@@ -1,0 +1,38 @@
+<!--pages/find-station/find-station.wxml-->
+<view class='search-box'>
+  
+  <input type='text' placeholder='输入查询车站'></input>
+  <view class='search-icon'>
+  <image src="../../img/search-icon.png"></image>
+  </view>
+</view>
+
+<view class='history-box'>
+  <view class='history-text'>历史选择</view>
+  <view class='history-cityList'>
+    <view class='history-city now'>郑州</view>
+    <view class='history-city'>西安</view>
+    <view class='history-city'>太原</view>
+  </view>
+</view>
+
+<view class='city-list'>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+  <view class='city'>郑州中心站</view>
+</view>

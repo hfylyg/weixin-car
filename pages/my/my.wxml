@@ -1,0 +1,61 @@
+<!--pages/my/my.wxml-->
+<view class='user'>
+  <view class='user-head'>
+  
+  </view>
+  <view class='user-msg'>
+  <view class='user-name'>张三</view>
+  <view class='user-tel'>12345678901</view>
+  </view>
+  <navigator url="../binTel/binTel" class='binding' hover-class="none">
+    <view class='binding-icon'>
+      <image src='../../img/binding.png'></image>
+    </view>
+  </navigator>
+</view>
+
+<navigator class='list' url="">
+  <view class='list-icon'>
+    <image src="../../img/takeone.png"></image>
+  </view>
+  <view class='list-text'>联系人</view>
+  <view class='list-binding'>
+    <image src='../../img/binding.png'></image>
+  </view>
+</navigator>
+<navigator class='list' url="">
+  <view class='list-icon'>
+    <image src="../../img/wenti.png"></image>
+  </view>
+  <view class='list-text'>常见问题</view>
+  <view class='list-binding'>
+    <image src='../../img/binding.png'></image>
+  </view>
+</navigator>
+<navigator class='list' url="">
+  <view class='list-icon'>
+    <image src="../../img/chaxun.png"></image>
+  </view>
+  <view class='list-text'>车站查询</view>
+  <view class='list-binding'>
+    <image src='../../img/binding.png'></image>
+  </view>
+</navigator>
+<navigator class='list' url="">
+  <view class='list-icon'>
+    <image src="../../img/kefu.png"></image>
+  </view>
+  <view class='list-text'>微信客服</view>
+  <view class='list-binding'>
+    <image src='../../img/binding.png'></image>
+  </view>
+</navigator>
+<view class='list'>
+  <view class='list-icon'>
+    <image src="../../img/zixun.png"></image>
+  </view>
+  <view class='list-text'>咨询电话</view>
+  <view class='zixun'>
+    400-11-12345
+  </view>
+</view>

@@ -1,0 +1,110 @@
+/**index.wxss**/
+.banner{
+  width: 100%;
+  height: 360rpx;
+}
+.b1,b2,b3{
+  width: 100%;
+  height: 100%;
+}
+.b1 image{
+  width: 100%;
+  height: 100%;
+}
+.b2 image{
+   width: 100%;
+   height: 100%;
+}
+.b3 image{
+   width: 100%;
+   height: 100%;
+}
+.hite{
+width: 660rpx;
+height: 100rpx;
+border-bottom: 1rpx solid #d8d8d8; 
+font-size: 32rpx;
+font-weight: 600;
+margin: 0 auto;
+margin-top: 60rpx;
+line-height: 120rpx;
+}
+.select{
+  width:660rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  padding-top: 30rpx; 
+  box-sizing: border-box;
+  position: relative;
+}
+.select-l,.select-r{
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 60rpx;
+  position: absolute;
+  top: 30rpx;
+}
+.select-l{
+  left:0;
+}
+.select-r{
+  right:0;
+}
+.select-c{
+  width: 60rpx;
+  height: 60rpx;
+  background: blue;
+  margin: 0 auto;
+}
+ .select-c image{
+   width:100%;
+   height: 100%;
+ }
+
+.time{
+  width:660rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  padding-top:30rpx; 
+  font-size: 32rpx;
+  line-height: 60rpx;
+  position: relative;
+}
+.select-time{
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 32rpx;
+  text-align: center;
+  line-height: 60rpx;
+  
+}
+
+.t-icon{
+  width: 38rpx;
+  height: 38rpx;
+  position: absolute;
+  top: 40rpx;
+  right: 60rpx;
+
+}
+.t-icon image{
+  width: 100%;
+  height: 100%;
+}
+.seach{
+  width:660rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+  background: #1f85d7;
+  border-radius: 200rpx;
+  font-size: 36rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  box-shadow:  0 0 20rpx #1f85d7;
+}

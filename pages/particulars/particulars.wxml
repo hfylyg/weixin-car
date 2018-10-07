@@ -1,0 +1,52 @@
+<!--pages/particulars/particulars.wxml-->
+<view class='message'>
+<view class='message-top'>
+<view class='start'>{{start}}</view>
+<view class='depart'>
+<view class='depart-time'>{{time}}</view>
+<view class='depart-img'>
+→→→→→→→→→
+</view>
+<view class='depart-date'>{{year}}年{{month}}月{{day}}日</view>
+</view>
+<view class='finish'>{{finish}}</view>
+</view>
+<view class='message-bottom'>
+<view class='price'>票价 ￥{{price}}元</view>
+<view class='cancel'>取消订单</view>
+</view>
+</view>
+
+<view class='passenger'>
+<view class='passenger-text'>乘客</view>
+<view class='passenger-message'>
+<view class='del'>
+<image src='../../img/del.png'></image>
+</view>
+<view class='passenger-set'>
+<input class='passenger-name' type='text' placeholder="姓名"></input>
+<input class='passenger-tel' type='text' placeholder="身份证号"></input>
+</view>
+</view>
+<view class='add-passenger'>
+<view class='add-icon'>
+<image src='../../img/add-icon.png'></image>
+</view>
+<view class='add-text'>添加乘客</view>
+</view>
+</view>
+<view class='get-order'>
+  <view class='get-order-one'>
+    取票人
+    <input type='text' placeholder='取票人名称' ></input>
+  </view>
+  <view class='get-order-tel'>
+    手机号
+    <input type='text'  placeholder='取票人手机号'></input>
+  </view>
+</view>
+
+<view class='payment'>
+<view class='pay-price'>￥20</view>
+<view class='pay'>立即支付</view>
+</view>

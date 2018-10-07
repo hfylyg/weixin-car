@@ -1,0 +1,98 @@
+/* pages/list.wxss */
+.time-header{
+ width:100%;
+ height: 80rpx;
+ background: #1f85d7;
+}
+.last,.next,.time-date{
+  width: 200rpx;
+  height: 100%;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+
+}
+.last{
+ 
+  float: left;
+}
+.next{
+  float: right;
+}
+.time-date{
+  float: left;
+  margin-left: 75rpx;
+}
+
+.lists{
+  width: 100%;
+}
+.list{
+  width: 100%;
+  height: 150rpx;
+  border-bottom:1rpx solid #f0f0f0; 
+}
+.depart-time{
+  width: 200rpx;
+  height: 100%;
+  float: left;
+  font-size: 44rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height: 150rpx;
+}
+.depart-site{
+  width: 300rpx;
+  height: 100%;
+  float: left;
+  margin: 0 25rpx;
+  position: relative;
+}
+.depart-img{
+  width: 50rpx;
+  height: 100rpx;
+  margin-top: 25rpx;
+  float:left;
+}
+.depart-img image{
+  width: 100%;
+  height: 100%;
+}
+.depart-text{
+  width: 250rpx;
+  height: 100%;
+   float:right;
+}
+.start,.finish{
+  width: 100%;
+  height: 75rpx;
+  font-size: 32rpx;
+  text-align: left;
+  line-height: 75rpx;
+
+}
+
+.list-r{
+  width: 200rpx;
+  height: 100%;
+  float: left;
+
+}
+.price{
+  width: 100%;
+  height: 80rpx;
+  font-size: 36rpx;
+  color:#ff8400;
+  text-align: center;
+  line-height: 120rpx;
+}
+.residue{
+  width: 100%;
+  height: 70rpx;
+  font-size:26rpx; 
+  color:#a0a0a0;
+  text-align: center;
+ line-height: 50rpx; 
+  
+}

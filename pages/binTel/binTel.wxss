@@ -1,0 +1,58 @@
+/* pages/binTel/binTel.wxss */
+page{
+  background: #f3f3f3;
+  padding-top: 200rpx;
+}
+.header{
+  width: 90%;
+  height: 400rpx;
+  padding-top: 100rpx;
+  background: #fff;
+  margin: 0 auto;
+  font-size: 32rpx;
+}
+.tel,.code{
+  width: 80%;
+  height: 100rpx;
+  margin: 0 auto;
+  line-height: 100rpx;
+}
+.tel-text{
+  width: 150rpx;
+  height: 100%;
+  float: left;
+}
+.tel-num,.code-num{
+   width: 390rpx;
+  height: 100%;
+  float: left;
+  border-bottom: 1rpx dotted #ddd;
+}
+.code{
+  position: relative;
+}
+.get-code{
+  background: #fff;
+  width: 160rpx;
+  height: 50rpx;
+  border:1rpx solid #1F85D7;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 50rpx;
+  position: absolute;
+  right: 0;
+  bottom: 20rpx;
+  border-radius: 10rpx;
+}
+.submit{
+  width: 70%;
+  height: 80rpx;
+  margin: 70rpx auto;
+  background: #1F85D7;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  font-weight: 660;
+
+}

@@ -1,0 +1,36 @@
+<!--pages/time/time.wxml-->
+<view class='header'>
+  <view class='weekend' style='color:red'>日</view>
+  <view class='weekend'>一</view>
+  <view class='weekend'>二</view>
+  <view class='weekend'>三</view>
+  <view class='weekend'>四</view>
+  <view class='weekend'>五</view>
+  <view class='weekend' style='color:red'>六</view>
+</view>
+<view class='date-lists'>
+  <view class='year-month'>2018年9月</view>
+  <view class='date-list'>
+  <view class='date-day'></view>
+  <view class='date-day'></view>
+  <view class='date-day'></view>
+  <view class='date-day'></view>
+  <view class='date-day'></view>
+  <view class='date-day'></view>
+        <view wx:for="{{array}}" wx:for-item="i">
+         <view class='date-day lose'>{{i}}</view>
+        </view>
+        <view class='date-day date'>30</view>
+  </view>
+</view>
+
+
+<view class='date-lists'>
+  <view class='year-month'>2018年10月</view>
+  <view class='date-list'>
+  <view class='date-day'></view>
+        <view wx:for="{{array}}" wx:for-item="i">
+         <view class='date-day'>{{i}}</view>
+        </view>
+  </view>
+</view>
